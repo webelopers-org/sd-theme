@@ -720,3 +720,17 @@
     bottom: 0;
     right: 0;
 }
+
+// images
+.square-image {
+    aspect-ratio: 1/1;
+
+    &__contain {
+        @extend .square-image;
+        object-fit: contain;
+    }
+    &__cover {
+        @extend .square-image;
+        object-fit: cover;
+    }
+}
