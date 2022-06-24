@@ -802,6 +802,15 @@ p {
   bottom: 0;
   right: 0; }
 
+.square-image, .square-image__contain, .square-image__cover {
+  aspect-ratio: 1/1; }
+  .square-image__contain {
+    -o-object-fit: contain;
+       object-fit: contain; }
+  .square-image__cover {
+    -o-object-fit: cover;
+       object-fit: cover; }
+
 .accordion .accordion-item .accordion-title {
   margin-bottom: 15px;
   font-size: 18px; }
