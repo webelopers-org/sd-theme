@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="HTML5 Template" />
+    <meta name="description" content="Real Villa - Real Estate HTML5 Template" />
+    <meta name="author" content="potenzaglobalsolutions.com" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Solodueños.com | Detalle de la propiedad</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/favicon.ico" />
+
+    <!-- Google Font -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed:300,500,600,700%7CRoboto:300,400,500,700">
+
+    <!-- CSS Global Compulsory (Do not remove)-->
+    <link rel="stylesheet" href="css/font-awesome/all.min.css" />
+    <link rel="stylesheet" href="css/flaticon/flaticon.css" />
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css" />
+
+    <!-- Page CSS Implementing Plugins (Remove the plugin CSS here if site does not use that feature)-->
+    <link rel="stylesheet" href="css/datetimepicker/datetimepicker.min.css" />
+    <link rel="stylesheet" href="css/slick/slick-theme.css" />
+    <link rel="stylesheet" href="css/select2/select2.css" />
+
+    <!-- Template Style -->
+    <link rel="stylesheet" href="css/style.css" />
+
+</head>
+
+<body>
+
+    <!--================================= header -->
+    <header class="header">
+        <div class="topbar">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="d-block d-md-flex align-items-center text-center">
+                            <div class="mr-auto d-inline-block">
+                                <a href="tel:5238-9999"><i class="fa fa-phone mr-2 fa fa-flip-horizontal"></i>5238-9999</a>
+                            </div>
+                            <div class="social d-inline-block">
+                                <ul class="list-unstyled">
+                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-pinterest"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                </ul>
+                            </div>
+                            <div class="login d-inline-block mt-2 m-md-0">
+                                <a data-toggle="modal" data-target="#loginModal" href="#">Escritorio del dueño<i class="fa fa-user pl-2"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar navbar-light bg-white navbar-static-top navbar-expand-lg header-sticky">
+            <div class="container-fluid">
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target=".navbar-collapse">☰</button>
+                <a class="navbar-brand" href="sd--home.html">
+                    <img src="images/logo.png" alt="logo">
+                </a>
+                <div class="navbar-collapse collapse justify-content-center">
+                    <ul class="nav navbar-nav">
+
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Emprendimientos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Video 360º</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Funcionamiento</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Servicios <i class="fas fa-chevron-down fa-xs"></i></a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li class="active"><a class="dropdown-item" href="#">Servicio 1</a></li>
+                                <li><a class="dropdown-item" href="#">Servicio 2</a></li>
+                                <li><a class="dropdown-item" href="#">Servicio 3</a></li>
+                                <li><a class="dropdown-item" href="#">Servicio 4</a></li>
+                                <li><a class="dropdown-item" href="#">Servicio 5</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Blog</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="add-listing d-none d-sm-block">
+                    <a class="btn btn-primary btn-md" href="sd--submit-property.html"><i class="fa fa-plus-circle"></i> Publicar</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--================================= header -->
+
+    <!--================================= Modal login -->
+    <div class="modal login fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header border-0">
+                    <h5 class="modal-title" id="loginModalLabel">Log in & Register</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <ul class="nav nav-tabs nav-tabs-02 justify-content-center" id="myTab" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active" id="login-tab" data-toggle="tab" href="#login" role="tab" aria-controls="login" aria-selected="false">Log in</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="register-tab" data-toggle="tab" href="#register" role="tab" aria-controls="register" aria-selected="true">Register</a>
+                        </li>
+                    </ul>
+                    <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane fade show active" id="login" role="tabpanel" aria-labelledby="login-tab">
+                            <form class="form-row mt-4 align-items-center">
+                                <div class="form-group col-sm-12">
+                                    <input type="text" class="form-control" placeholder="Username">
+                                </div>
+                                <div class="form-group col-sm-12">
+                                    <input type="Password" class="form-control" placeholder="Password">
+                                </div>
+                                <div class="col-sm-6">
+                                    <button type="submit" class="btn btn-primary btn-block">Sign up</button>
+                                </div>
+                                <div class="col-sm-6">
+                                    <ul class="list-unstyled d-flex mb-1 mt-sm-0 mt-3">
+                                        <li class="mr-1"><a href="#"><b>Already Registered User? Click here to login</b></a></li>
+                                    </ul>
+                                </div>
+                            </form>
+                            <div class="login-social-media border pl-4 pr-4 pb-4 pt-0 rounded">
+                                <div class="mb-4 d-block text-center"><b class="bg-white pl-2 pr-2 mt-3 d-block">Login or Sign in with</b></div>
+                                <form class="row">
+                                    <div class="col-sm-6">
+                                        <a class="btn facebook-bg social-bg-hover d-block mb-3" href="#"><span><i class="fab fa-facebook-f"></i>Login with Facebook</span></a>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <a class="btn twitter-bg social-bg-hover d-block mb-3" href="#"><span><i class="fab fa-twitter"></i>Login with Twitter</span></a>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <a class="btn google-bg social-bg-hover d-block mb-3 mb-sm-0" href="#"><span><i class="fab fa-google"></i>Login with Google</span></a>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <a class="btn linkedin-bg social-bg-hover d-block" href="#"><span><i class="fab fa-linkedin-in"></i>Login with Linkedin</span></a>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="register" role="tabpanel" aria-labelledby="register-tab">
+                            <form class="form-row mt-4 mb-5 align-items-center">
+                                <div class="form-group col-sm-12">
+                                    <input type="text" class="form-control" placeholder="Username">
+                                </div>
+                                <div class="form-group col-sm-12">
+                                    <input type="email" class="form-control" placeholder="Email Address">
+                                </div>
+                                <div class="form-group col-sm-12">
+                                    <input type="Password" class="form-control" placeholder="Password">
+                                </div>
+                                <div class="form-group col-sm-12">
+                                    <input type="Password" class="form-control" placeholder="Confirm Password">
+                                </div>
+                                <div class="col-sm-6">
+                                    <button type="submit" class="btn btn-primary btn-block">Sign up</button>
+                                </div>
+                                <div class="col-sm-6">
+                                    <ul class="list-unstyled d-flex mb-1 mt-sm-0 mt-3">
+                                        <li class="mr-1"><a href="#"><b>Already Registered User? Click here to login</b></a></li>
+                                    </ul>
+                                </div>
+                            </form>
+                            <div class="login-social-media border pl-4 pr-4 pb-4 pt-0 rounded">
+                                <div class="mb-4 d-block text-center"><b class="bg-white pl-2 pr-2 mt-3 d-block">Login or Sign in with</b></div>
+                                <form class="row">
+                                    <div class="col-sm-6">
+                                        <a class="btn facebook-bg social-bg-hover d-block mb-3" href="#"><span><i class="fab fa-facebook-f"></i>Login with Facebook</span></a>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <a class="btn twitter-bg social-bg-hover d-block mb-3" href="#"><span><i class="fab fa-twitter"></i>Login with Twitter</span></a>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <a class="btn google-bg social-bg-hover d-block mb-3 mb-sm-0" href="#"><span><i class="fab fa-google"></i>Login with Google</span></a>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <a class="btn linkedin-bg social-bg-hover d-block" href="#"><span><i class="fab fa-linkedin-in"></i>Login with Linkedin</span></a>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--================================= Modal login -->
+
+    <!--================================= breadcrumb -->
+    <div class="bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <ol class="breadcrumb mb-0">
+                        <li class="breadcrumb-item"><a href="sd--home.html"> <i class="fas fa-home"></i> </a></li>
+                        <li class="breadcrumb-item"> <i class="fas fa-chevron-right"></i> <a href="#">Listado de propiedades</a></li>
+                        <li class="breadcrumb-item active"> <i class="fas fa-chevron-right"></i> <span> Resultados de la búsqueda </span></li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--================================= breadcrumb -->
+
+    <div class="wrapper">
+        <!--================================= Property Detail -->
+        <section class="space-ptb">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-8">
+                        <div class="property-detail-title">
+                            <h3>DEPARTAMENTO EN: <span class="text-primary">PALERMO</span></h3>
+                            <span class="d-block mb-4">DIRECCIÓN: Guatemala 4730</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="price-meta">
+                            <div class="mb-4 d-inline">
+                                <span class="price font-xll text-primary mr-2">U$S 150.000</span>
+                            </div>
+                            <ul class="property-detail-meta list-unstyled mt-1 mb-5 mb-lg-3">
+                                <li><span>VENTA</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 mb-5 mb-lg-0 order-lg-2">
+                        <div class="sticky-top">
+                            <div class="sidebar">
+                                <div class="agent-contact mb-4">
+                                    <div class="agent-contact-inner bg-primary p-4">
+                                        <div class="d-flex align-items-center mb-4">
+                                            <div class="agent-contact-avatar mr-3">
+                                                <img class="img-fluid rounded-circle avatar avatar-lg" src="images/avatar/01.jpg" alt="">
+                                            </div>
+                                            <div class="agent-contact-name">
+                                                <h6 class="text-white">MELISA</h6>
+                                                <span class="text-white">Código de aviso: 178891</span>
+                                            </div>
+                                        </div>
+                                        <div class="mb-4">
+                                            <h6 class="text-center text-white border p-2 mb-0">
+                                                <a href="tel:023715441125">0237-15-441125</a> / <a href="tel:1563568563">15-6356-8563</a>
+                                            </h6>
+                                        </div>
+                                        <form>
+                                            <div class="form-group">
+                                                <input type="email" class="form-control" placeholder="Email">
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" placeholder="Teléfono">
+                                            </div>
+                                            <div class="form-group">
+                                                <textarea class="form-control" rows="3" placeholder="Mensaje"></textarea>
+                                            </div>
+                                            <div class="form-group text-center text-white font-sm">
+                                                <span>INTERMEDIARIOS ABSTENERSE</span>
+                                            </div>
+                                            <a class="btn btn-secondary btn-block" href="#">ENVIAR MENSAJE</a>
+                                        </form>
+                                    </div>
+                                </div>
+
+                                <div class="mb-4">
+                                    <span class="btn btn-block bg-accent text-white">PROPIEDAD RESERVADA</span>
+                                </div>
+
+                                <div class="widget">
+                                    <div class="widget-title">
+                                        <h6>Recently listed properties</h6>
+                                    </div>
+                                    <div class="recent-list-item">
+                                        <img class="img-fluid" src="images/property/list/01.jpg" alt="">
+                                        <div class="recent-list-item-info">
+                                            <a class="address mb-2" href="#">Ample apartment at last floor</a>
+                                            <span class="text-accent">$1,147,457 </span>
+                                        </div>
+                                    </div>
+                                    <div class="recent-list-item">
+                                        <img class="img-fluid" src="images/property/list/02.jpg" alt="">
+                                        <div class="recent-list-item-info">
+                                            <a class="address mb-2" href="#">Contemporary apartment</a>
+                                            <span class="text-accent">$2,577,577 </span>
+                                        </div>
+                                    </div>
+                                    <div class="recent-list-item">
+                                        <img class="img-fluid" src="images/property/list/03.jpg" alt="">
+                                        <div class="recent-list-item-info">
+                                            <a class="address mb-2" href="#">3 bedroom house in gardner</a>
+                                            <span class="text-accent">$3,575,547 </span>
+                                        </div>
+                                    </div>
+                                    <div class="recent-list-item">
+                                        <img class="img-fluid" src="images/property/list/04.jpg" alt="">
+                                        <div class="recent-list-item-info">
+                                            <a class="address mb-2" href="#">Stunning 2 bedroom home in village</a>
+                                            <span class="text-accent">$1,475,575 </span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="widget">
+                                    <div class="widget-title">
+                                        <h6>Reportar Aviso</h6>
+                                    </div>
+                                    <form>
+                                        <div class="form-group">
+                                            <input type="email" class="form-control" placeholder="Email">
+                                        </div>
+                                        <div class="form-group">
+                                            <textarea class="form-control" rows="3" placeholder="Mensaje"></textarea>
+                                        </div>
+                                        <a class="btn btn-primary btn-block" href="#">REPORTAR</a>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-8 order-lg-1">
+
+                        <div class="property-detail-gallery overflow-hidden">
+                            <div class="tab-content" id="pills-tabContent">
+                                <div class="tab-pane fade show active" id="photo" role="tabpanel" aria-labelledby="photo-tab">
+                                    <div class="slider-slick">
+                                        <div class="slider slider-for detail-big-car-gallery">
+                                            <img class="img-fluid" src="images/property/grid/01.jpg" alt="">
+                                            <img class="img-fluid" src="images/property/grid/02.jpg" alt="">
+                                            <img class="img-fluid" src="images/property/grid/03.jpg" alt="">
+                                            <img class="img-fluid" src="images/property/grid/04.jpg" alt="">
+                                            <img class="img-fluid" src="images/property/grid/05.jpg" alt="">
+                                            <img class="img-fluid" src="images/property/grid/06.jpg" alt="">
+                                        </div>
+                                        <div class="slider slider-nav">
+                                            <img class="img-fluid" src="images/property/grid/01.jpg" alt="">
+                                            <img class="img-fluid" src="images/property/grid/02.jpg" alt="">
+                                            <img class="img-fluid" src="images/property/grid/03.jpg" alt="">
+                                            <img class="img-fluid" src="images/property/grid/04.jpg" alt="">
+                                            <img class="img-fluid" src="images/property/grid/05.jpg" alt="">
+                                            <img class="img-fluid" src="images/property/grid/06.jpg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="property-info mt-5">
+                            <div class="row">
+                                <div class="col-sm-3 mb-3 mb-sm-0">
+                                    <h5>Información Básica</h5>
+                                </div>
+                                <div class="col-sm-9">
+                                    <div class="row mb-3">
+                                        <div class="col-sm-6">
+                                            <ul class="property-list list-unstyled">
+                                                <li><b>Property ID:</b> RV151</li>
+                                                <li><b>Price:</b> $484,400</li>
+                                                <li><b>Property Size:</b> 1466 Sq Ft</li>
+                                                <li><b>Bedrooms:</b> 4</li>
+                                                <li><b>Bathrooms:</b> 2</li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <ul class="property-list list-unstyled">
+                                                <li><b>Garage:</b> 1</li>
+                                                <li><b>Garage Size:</b> 458 SqFt</li>
+                                                <li><b>Year Built:</b> 2019-01-09</li>
+                                                <li><b>Property Type:</b> Full Family Home</li>
+                                                <li><b>Property Status:</b> For rent</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <h6 class="text-accent">Additional details</h6>
+                                    <div class="row">
+                                        <div class="col-sm-6">
+                                            <ul class="property-list list-unstyled mb-0">
+                                                <li><b>Deposit:</b> 30%</li>
+                                                <li><b>Pool Size:</b> 457 Sqft</li>
+                                                <li><b>Last remodel year:</b> 1956</li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <ul class="property-list list-unstyled mb-0">
+                                                <li><b>Amenities:</b> Clubhouse</li>
+                                                <li><b>Additional Rooms:</b> Guest Bat</li>
+                                                <li><b>Equipment:</b> Grill - Gas - light</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <hr class="mt-4 mb-4 mb-sm-5 mt-sm-5">
+                        <div class="property-description">
+                            <div class="row">
+                                <div class="col-sm-3 mb-3 mb-sm-0">
+                                    <h5>Descripción</h5>
+                                </div>
+                                <div class="col-sm-9">
+                                    <p>Excelente edificio de categoría muy buena entrada con iluminacion led, ascensor automático de última generacion. Palieres espacios comunes medianeras y terraza en excelente estado dé conservacion (pintura y mantenimiento hecha hace muy poco). Departamento en estado IMPECABLE, se destaca la luz y el sol todo el dia, con ventanas grandes incluso en el hall de distribución y baño, lo que permite una muy buena ventilación. Pisos parquet plastificados, detalles de excelente terminación y buen gusto. Ubicado en la mejor zona de Palermo soho.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <hr class="mt-4 mb-4 mb-sm-5 mt-sm-5">
+                        <div class="property-features">
+                            <div class="row">
+                                <div class="col-sm-3 mb-3 mb-sm-0">
+                                    <h5>Información Adicional</h5>
+                                </div>
+                                <div class="col-sm-9">
+                                    <div class="row">
+                                        <div class="col-sm-6">
+                                            <ul class="property-list-style-2 list-unstyled mb-0">
+                                                <li>TV Cable</li>
+                                                <li>Air Conditioning</li>
+                                                <li>Barbeque</li>
+                                                <li>Gym</li>
+                                                <li>Swimming Pool</li>
+                                                <li>Laundry</li>
+                                                <li>Microwave</li>
+                                                <li>Outdoor Shower</li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <ul class="property-list-style-2 list-unstyled mb-0">
+                                                <li>Lawn</li>
+                                                <li>Refrigerator</li>
+                                                <li>Sauna</li>
+                                                <li>Washer</li>
+                                                <li>Dryer</li>
+                                                <li>WiFi</li>
+                                                <li>Window Coverings</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <hr class="mt-4 mb-4 mb-sm-5 mt-sm-5">
+                        <div class="property-location">
+                            <div class="row">
+                                <div class="col-12">
+                                    <h5>Ubicación</h5>
+                                </div>
+                                <div class="col-12">
+                                    <div class="embed-responsive embed-responsive-16by9">
+                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8351288872545!2d144.9556518!3d-37.8173306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d4c2b349649%3A0xb6899234e561db11!2sEnvato!5e0!3m2!1sen!2sin!4v1443621171568" style="border:0; width: 100%; height: 100%;"></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <hr class="mt-4 mb-4 mb-sm-5 mt-sm-5">
+                        <div class="property-video">
+                            <div class="row">
+                                <div class="col-12">
+                                    <h5>Video</h5>
+                                </div>
+                                <div class="col-12">
+                                    <div class="embed-responsive embed-responsive-16by9">
+                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/kacyaEXqVhs" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <hr class="mt-4 mb-4 mb-sm-5 mt-sm-5">
+                        <div class="property-map">
+                            <div class="row">
+                                <div class="col-12">
+                                    <h5>Plano</h5>
+                                </div>
+                                <div class="col-12">
+                                    <img class="img-fluid" src="images/property/views--statistics.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!--================================= Property Detail -->
+    </div>
+
+    <!--================================= footer-->
+    <footer class="footer bg-primary space-pt">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-contact-info">
+                        <h5 class="mb-4">Contacto</h5>
+                        <div class="footer-link">
+                            <ul class="list-unstyled mb-0 text-white">
+                                <li>Comuníquese con nosotros de lunes a viernes de 09 a 20 hs</li>
+                                <li>Tel. <a href="tel:01152389999" target="_blank">(011) 5238-9999</a></li>
+                                <li>WhatsApp: <a href="https://wa.me/5491125099000" target="_blank">(011) 2509-9000</a></li>
+                                <li><a href="mailto:info@soloduenos.com">info@soloduenos.com</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mt-4 mt-md-0">
+                    <div class="footer-link">
+                        <h5 class="mb-4">Búsquedas Frecuentes</h5>
+                        <ul class="list-unstyled mb-0">
+                            <li> <a href="#">Alquiler en CABA</a> </li>
+                            <li> <a href="#">Inmuebles Comerciales </a> </li>
+                            <li> <a href="#">Countries & Barrios Cerrados </a> </li>
+                            <li> <a href="#">Avisos con Fotos 360º </a> </li>
+                            <li> <a href="#">Últimas propiedades ingresadas </a> </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mt-4 mt-lg-0">
+                    <div class="footer-recent-List">
+                        <h5 class="mb-4">Servicios Útiles</h5>
+                        <ul class="list-unstyled mb-0">
+                            <li>
+                                <div class="footer-recent-list-item">
+                                    <img class="img-fluid" src="images/property/list/01.jpg" alt="">
+                                    <div class="footer-recent-list-item-info">
+                                        <h6><a class="category font-md mb-2" href="property-detail-style-01.html">Video 360º</a></h6>
+                                        <span class="text-white font-sm">Exclusivo de solodueños.com</span>
+                                        <a class="text-white mb-2" href="#">VER MÁS</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="footer-recent-list-item">
+                                    <img class="img-fluid" src="images/property/list/02.jpg" alt="">
+                                    <div class="footer-recent-list-item-info">
+                                        <h6 class="text-white"><a class="category font-md mb-2" href="property-detail-style-01.html">Servicio Fotográfico</a></h6>
+                                        <span class="text-white font-sm">Fotos profesionales</span>
+                                        <a class="text-white mb-2" href="#">VER MÁS</a>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mt-4 mt-lg-0">
+                    <h5 class="mb-4">Blog</h5>
+                    <div class="footer-subscribe">
+                        <p class="text-white">¿Desea recibir nuestras novedades?</p>
+                        <form>
+                            <div class="form-group">
+                                <input type="email" class="form-control" aria-label="email">
+                            </div>
+                            <button type="submit" class="btn btn-secondary btn-sm">Suscribirme</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-md-5 text-center text-md-left">
+                        <a href="#"><img src="images/logo-light.png" alt="Solodueños.com logo white" class="img-fluid"> </a>
+                    </div>
+                    <div class="col-md-2 text-center my-3 mt-md-0 mb-md-0">
+                        <a id="back-to-top" class="back-to-top" href="#"><i class="fas fa-angle-double-up"></i> </a>
+                    </div>
+                    <div class="col-md-5 text-center text-white d-flex flex-column-reverse align-items-center flex-md-row align-items-md-start justify-content-md-end">
+                        <img src="images/data-fiscal.png" alt="Data Fiscal" height="90" width="63">
+                        <div class="text-center text-md-left ml-md-3">
+                            <p>© Copyright 1999/2021 - Soloduenos.com - Todos los derechos reservados.</p>
+                            <p>Términos y Condiciones de Publicación • Funcionamiento • Política de privacidad</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--================================= footer-->
+
+    <!--=================================
+Javascript -->
+
+    <!-- JS Global Compulsory (Do not remove)-->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/popper/popper.min.js"></script>
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+
+    <!-- Page JS Implementing Plugins (Remove the plugin script here if site does not use that feature)-->
+    <script src="js/slick/slick.min.js"></script>
+    <script src="js/datetimepicker/moment.min.js"></script>
+    <script src="js/datetimepicker/datetimepicker.min.js"></script>
+    <script src="js/select2/select2.full.js"></script>
+
+    <!-- Template Scripts (Do not remove)-->
+    <script src="js/custom.js"></script>
+
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAWI9rhUFXXbXL5tq_qorDOo7HogeTEYtA&callback=initialize">
+    </script>
+
+</body>
+
+</html>

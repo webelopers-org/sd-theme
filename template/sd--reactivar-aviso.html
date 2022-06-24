@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="HTML5 Template" />
+    <meta name="description" content="Real Villa - Real Estate HTML5 Template" />
+    <meta name="author" content="potenzaglobalsolutions.com" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Real Villa - Real Estate HTML5 Template</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/favicon.ico" />
+
+    <!-- Google Font -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed:300,500,600,700%7CRoboto:300,400,500,700">
+
+    <!-- CSS Global Compulsory (Do not remove)-->
+    <link rel="stylesheet" href="css/font-awesome/all.min.css" />
+    <link rel="stylesheet" href="css/flaticon/flaticon.css" />
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css" />
+
+    <!-- Page CSS Implementing Plugins (Remove the plugin CSS here if site does not use that feature)-->
+    <link rel="stylesheet" href="css/owl-carousel/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/magnific-popup/magnific-popup.css" />
+    <link rel="stylesheet" href="css/select2/select2.css" />
+
+    <!-- Template Style -->
+    <link rel="stylesheet" href="css/style.css" />
+
+</head>
+
+<body>
+
+    <!--================================= header -->
+    <header class="header">
+        <div class="topbar">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="d-block d-md-flex align-items-center text-center">
+                            <div class="mr-auto d-inline-block">
+                                <a href="tel:5238-9999"><i class="fa fa-phone mr-2 fa fa-flip-horizontal"></i>5238-9999</a>
+                            </div>
+                            <div class="social d-inline-block">
+                                <ul class="list-unstyled">
+                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-pinterest"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                </ul>
+                            </div>
+                            <div class="login d-inline-block mt-2 m-md-0">
+                                <a data-toggle="modal" data-target="#loginModal" href="#">Escritorio del dueño<i class="fa fa-user pl-2"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar navbar-light bg-white navbar-static-top navbar-expand-lg header-sticky">
+            <div class="container-fluid">
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target=".navbar-collapse">☰</button>
+                <a class="navbar-brand" href="sd--home.html">
+                    <img src="images/logo.png" alt="logo">
+                </a>
+                <div class="navbar-collapse collapse justify-content-center">
+                    <ul class="nav navbar-nav">
+
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Emprendimientos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Video 360º</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Funcionamiento</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Servicios <i class="fas fa-chevron-down fa-xs"></i></a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li class="active"><a class="dropdown-item" href="#">Servicio 1</a></li>
+                                <li><a class="dropdown-item" href="#">Servicio 2</a></li>
+                                <li><a class="dropdown-item" href="#">Servicio 3</a></li>
+                                <li><a class="dropdown-item" href="#">Servicio 4</a></li>
+                                <li><a class="dropdown-item" href="#">Servicio 5</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Blog</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="add-listing d-none d-sm-block">
+                    <a class="btn btn-primary btn-md" href="sd--submit-property.html"><i class="fa fa-plus-circle"></i> Publicar</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--================================= header -->
+
+    <!--================================= Modal login -->
+    <div class="modal login fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header border-0">
+                    <h5 class="modal-title" id="loginModalLabel">Log in & Register</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <ul class="nav nav-tabs nav-tabs-02 justify-content-center" id="myTab" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active" id="login-tab" data-toggle="tab" href="#login" role="tab" aria-controls="login" aria-selected="false">Log in</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="register-tab" data-toggle="tab" href="#register" role="tab" aria-controls="register" aria-selected="true">Register</a>
+                        </li>
+                    </ul>
+                    <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane fade show active" id="login" role="tabpanel" aria-labelledby="login-tab">
+                            <form class="form-row mt-4 align-items-center">
+                                <div class="form-group col-sm-12">
+                                    <input type="text" class="form-control" placeholder="Username">
+                                </div>
+                                <div class="form-group col-sm-12">
+                                    <input type="Password" class="form-control" placeholder="Password">
+                                </div>
+                                <div class="col-sm-6">
+                                    <button type="submit" class="btn btn-primary btn-block">Sign up</button>
+                                </div>
+                                <div class="col-sm-6">
+                                    <ul class="list-unstyled d-flex mb-1 mt-sm-0 mt-3">
+                                        <li class="mr-1"><a href="#"><b>Already Registered User? Click here to login</b></a></li>
+                                    </ul>
+                                </div>
+                            </form>
+                            <div class="login-social-media border pl-4 pr-4 pb-4 pt-0 rounded">
+                                <div class="mb-4 d-block text-center"><b class="bg-white pl-2 pr-2 mt-3 d-block">Login or Sign in with</b></div>
+                                <form class="row">
+                                    <div class="col-sm-6">
+                                        <a class="btn facebook-bg social-bg-hover d-block mb-3" href="#"><span><i class="fab fa-facebook-f"></i>Login with Facebook</span></a>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <a class="btn twitter-bg social-bg-hover d-block mb-3" href="#"><span><i class="fab fa-twitter"></i>Login with Twitter</span></a>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <a class="btn google-bg social-bg-hover d-block mb-3 mb-sm-0" href="#"><span><i class="fab fa-google"></i>Login with Google</span></a>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <a class="btn linkedin-bg social-bg-hover d-block" href="#"><span><i class="fab fa-linkedin-in"></i>Login with Linkedin</span></a>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="register" role="tabpanel" aria-labelledby="register-tab">
+                            <form class="form-row mt-4 mb-5 align-items-center">
+                                <div class="form-group col-sm-12">
+                                    <input type="text" class="form-control" placeholder="Username">
+                                </div>
+                                <div class="form-group col-sm-12">
+                                    <input type="email" class="form-control" placeholder="Email Address">
+                                </div>
+                                <div class="form-group col-sm-12">
+                                    <input type="Password" class="form-control" placeholder="Password">
+                                </div>
+                                <div class="form-group col-sm-12">
+                                    <input type="Password" class="form-control" placeholder="Confirm Password">
+                                </div>
+                                <div class="col-sm-6">
+                                    <button type="submit" class="btn btn-primary btn-block">Sign up</button>
+                                </div>
+                                <div class="col-sm-6">
+                                    <ul class="list-unstyled d-flex mb-1 mt-sm-0 mt-3">
+                                        <li class="mr-1"><a href="#"><b>Already Registered User? Click here to login</b></a></li>
+                                    </ul>
+                                </div>
+                            </form>
+                            <div class="login-social-media border pl-4 pr-4 pb-4 pt-0 rounded">
+                                <div class="mb-4 d-block text-center"><b class="bg-white pl-2 pr-2 mt-3 d-block">Login or Sign in with</b></div>
+                                <form class="row">
+                                    <div class="col-sm-6">
+                                        <a class="btn facebook-bg social-bg-hover d-block mb-3" href="#"><span><i class="fab fa-facebook-f"></i>Login with Facebook</span></a>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <a class="btn twitter-bg social-bg-hover d-block mb-3" href="#"><span><i class="fab fa-twitter"></i>Login with Twitter</span></a>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <a class="btn google-bg social-bg-hover d-block mb-3 mb-sm-0" href="#"><span><i class="fab fa-google"></i>Login with Google</span></a>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <a class="btn linkedin-bg social-bg-hover d-block" href="#"><span><i class="fab fa-linkedin-in"></i>Login with Linkedin</span></a>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--================================= Modal login -->
+
+    <!--================================= breadcrumb -->
+    <div class="bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <ol class="breadcrumb mb-0">
+                        <li class="breadcrumb-item"><a href="sd--home.html"> <i class="fas fa-home"></i> </a></li>
+                        <li class="breadcrumb-item"> <i class="fas fa-chevron-right"></i> <a href="sd--escritorio-dueño-home.html">Escritorio del dueño</a></li>
+                        <li class="breadcrumb-item active"> <i class="fas fa-chevron-right"></i> <span>Reactivar aviso</span></li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--================================= breadcrumb -->
+
+    <!--================================= My profile -->
+    <section class="space-pt">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 mb-5">
+                    <div class="profile-sidebar bg-holder" style="background-image: url(images/banner-01.jpg);">
+                        <div class="d-sm-flex align-items-center position-relative">
+                            <div class="profile-avatar">
+                                <img class="img-fluid" src="images/agent/04.jpg" alt="">
+                            </div>
+                            <div class="ml-sm-4">
+                                <h4 class="text-white">Camila Mestres</h4>
+                                <h5 class="text-white font-weight-light">Código de aviso: 178429 <a href="#" class="font-weight-bold mx-2">VER AVISO</a></h5>
+                                <b class="text-white">Su aviso vence en: 30 días</b>
+                            </div>
+                            <div class="ml-auto my-4 mt-sm-0">
+                                <a class="btn btn-white btn-md" href="#">CONTACTO</a>
+                            </div>
+                        </div>
+                        <div class="profile-nav">
+                            <ul class="nav justify-content-between">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="sd--escritorio-dueño-home.html"><i class="fas fa-home"></i></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="sd--reactivar-aviso.html">Reactivar aviso</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="sd--modificar-aviso.html">Modificar aviso</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="sd--incorporar-fotos.html">Incorporar fotos</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="sd--incorporar-mapa.html">Incorporar Mapa</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="sd--casilla-de-mensajes.html">Casilla de Mensajes</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="sd--visitas-a-su-aviso.html">Visitas a su aviso</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="sd--destacar-aviso.html">Destacar aviso</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="sd--anular-aviso.html">Anular aviso</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="section-title d-flex align-items-center">
+                        <h2>Reactivar Aviso</h2>
+                        <span class="ml-auto">Joined Mar 18, 2019</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--================================= My profile -->
+
+    <!--================================= pricing-table -->
+    <section class="space-pb">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-sm-6">
+                    <div class="pricing">
+                        <h5 class="pricing-title">Básico</h5>
+                        <span class="pricing-price d-block mb-2">$1.800.-</span>
+                        <p>Aviso x 1 Mes</p>
+                        <a class="btn btn-primary btn-block" href="#">Contratar</a>
+                        <ul class="list-unstyled pricing-list">
+                            <li>Espacio para 15 fotos</li>
+                            <li>Mapa de Ubicación</li>
+                            <li>Plano</li>
+                            <li>Cartel de Venta <span class="text-secondary">(Opcional)</span></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 mt-4 mt-sm-0">
+                    <div class="pricing">
+                        <h5 class="pricing-title">Destacado</h5>
+                        <span class="pricing-price d-block mb-2">$2.050.-</span>
+                        <p>Aviso x 2 Meses</p>
+                        <a class="btn btn-primary btn-block" href="#">Contratar</a>
+                        <ul class="list-unstyled pricing-list">
+                            <li>Servicio Fotográfico <span class="text-secondary">(Opcional)</span></li>
+                            <li>Espacio para 15 fotos</li>
+                            <li>Aviso Destacado por 1 día</li>
+                            <li>Mapa de Ubicación</li>
+                            <li>Plano</li>
+                            <li>Cartel de Venta <span class="text-secondary">(Opcional)</span></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 mt-4 mt-lg-0">
+                    <div class="pricing bg-dark text-white">
+                        <h5 class="pricing-title text-white">Premium</h5>
+                        <span class="pricing-price d-block mb-2">$2.400.-</span>
+                        <p>Aviso x 3 Meses</p>
+                        <a class="btn btn-primary btn-block" href="#">Contratar</a>
+                        <ul class="list-unstyled pricing-list">
+                            <li>Servicio Fotográfico <span class="text-secondary">(Opcional)</span></li>
+                            <li>Video 360° <span class="text-secondary">(Opcional)</span></li>
+                            <li>Espacio para 15 fotos</li>
+                            <li>Aviso Destacado por 2 días</li>
+                            <li>Mapa de Ubicación</li>
+                            <li>Plano</li>
+                            <li>Cartel de Venta <span class="text-secondary">(Opcional)</span></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 mt-4 mt-lg-0">
+                    <div class="pricing">
+                        <h5 class="pricing-title">Ilimitado</h5>
+                        <span class="pricing-price d-block mb-2">$4.995.-</span>
+                        <p>Hasta Que Venda</p>
+                        <a class="btn btn-primary btn-block" href="#">Contratar</a>
+                        <ul class="list-unstyled pricing-list">
+                            <li>Servicio Fotográfico <span class="text-secondary">(Opcional)</span></li>
+                            <li>Video 360° <span class="text-secondary">(Opcional)</span></li>
+                            <li>Espacio para 15 fotos</li>
+                            <li>Aviso Destacado por 2 días</li>
+                            <li>Mapa de Ubicación</li>
+                            <li>Plano</li>
+                            <li>Cartel de Venta <span class="text-secondary">(Opcional)</span></li>
+                            <li>Publicación en redes sociales</li>
+                            <li>Seguimiento personalizado</li>
+                            <li>Válido para una propiedad</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-title text-center">
+                        <h2>Todos los precios incluyen IVA</h2>
+                        <span>(*) Servicio fotográfico de Solodueños.com© opcional sin cargo. Debido a la situación sanitaria actual, el servicio fotográfico de solodueños se encuentra limitado, respetando las recomendaciones profesionales, para que al ingresar a los domicilios nuestro equipo y nuestros clientes estén seguros. Consulte disponibilidad al 5238-9999. A su vez, recomendamos a nuestros clientes incorporar fotos propias de forma provisoria, podrán hacerlo desde el Escritorio del dueño una vez activado el aviso. Agradecemos la comprensión en esta situación de emergencia sanitaria.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--================================= pricing-table -->
+
+    <!--================================= formas de pago -->
+    <section class="space-ptb bg-light formas-de-pago">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 text-center">
+                    <div class="section-title">
+                        <h2>Formas de pago</h2>
+                    </div>
+                    <div class="owl-carousel owl-nav-center" data-animateOut="fadeOut" data-nav-dots="false" data-items="3" data-space="30" data-loop="false">
+                        <div class="item">
+                            <img class="img-fluid" src="images/formas-de-pago/cash.png" alt="Forma de pago Efectivo">
+                        </div>
+                        <div class="item">
+                            <img class="img-fluid" src="images/formas-de-pago/credit-card.png" alt="Forma de pago Tarjeta de crédito">
+                        </div>
+                        <div class="item">
+                            <img class="img-fluid" src="images/formas-de-pago/mercadopago.png" alt="Forma de pago Mercadopago">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--================================= formas de pago -->
+
+    <!--================================= footer-->
+    <footer class="footer bg-primary space-pt">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-contact-info">
+                        <h5 class="mb-4">Contacto</h5>
+                        <div class="footer-link">
+                            <ul class="list-unstyled mb-0 text-white">
+                                <li>Comuníquese con nosotros de lunes a viernes de 09 a 20 hs</li>
+                                <li>Tel. <a href="tel:01152389999" target="_blank">(011) 5238-9999</a></li>
+                                <li>WhatsApp: <a href="https://wa.me/5491125099000" target="_blank">(011) 2509-9000</a></li>
+                                <li><a href="mailto:info@soloduenos.com">info@soloduenos.com</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mt-4 mt-md-0">
+                    <div class="footer-link">
+                        <h5 class="mb-4">Búsquedas Frecuentes</h5>
+                        <ul class="list-unstyled mb-0">
+                            <li> <a href="#">Alquiler en CABA</a> </li>
+                            <li> <a href="#">Inmuebles Comerciales </a> </li>
+                            <li> <a href="#">Countries & Barrios Cerrados </a> </li>
+                            <li> <a href="#">Avisos con Fotos 360º </a> </li>
+                            <li> <a href="#">Últimas propiedades ingresadas </a> </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mt-4 mt-lg-0">
+                    <div class="footer-recent-List">
+                        <h5 class="mb-4">Servicios Útiles</h5>
+                        <ul class="list-unstyled mb-0">
+                            <li>
+                                <div class="footer-recent-list-item">
+                                    <img class="img-fluid" src="images/property/list/01.jpg" alt="">
+                                    <div class="footer-recent-list-item-info">
+                                        <h6><a class="category font-md mb-2" href="property-detail-style-01.html">Video 360º</a></h6>
+                                        <span class="text-white font-sm">Exclusivo de solodueños.com</span>
+                                        <a class="text-white mb-2" href="#">VER MÁS</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="footer-recent-list-item">
+                                    <img class="img-fluid" src="images/property/list/02.jpg" alt="">
+                                    <div class="footer-recent-list-item-info">
+                                        <h6 class="text-white"><a class="category font-md mb-2" href="property-detail-style-01.html">Servicio Fotográfico</a></h6>
+                                        <span class="text-white font-sm">Fotos profesionales</span>
+                                        <a class="text-white mb-2" href="#">VER MÁS</a>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mt-4 mt-lg-0">
+                    <h5 class="mb-4">Blog</h5>
+                    <div class="footer-subscribe">
+                        <p class="text-white">¿Desea recibir nuestras novedades?</p>
+                        <form>
+                            <div class="form-group">
+                                <input type="email" class="form-control" aria-label="email">
+                            </div>
+                            <button type="submit" class="btn btn-secondary btn-sm">Suscribirme</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-md-5 text-center text-md-left">
+                        <a href="#"><img src="images/logo-light.png" alt="Solodueños.com logo white" class="img-fluid"> </a>
+                    </div>
+                    <div class="col-md-2 text-center my-3 mt-md-0 mb-md-0">
+                        <a id="back-to-top" class="back-to-top" href="#"><i class="fas fa-angle-double-up"></i> </a>
+                    </div>
+                    <div class="col-md-5 text-center text-white d-flex flex-column-reverse align-items-center flex-md-row align-items-md-start justify-content-md-end">
+                        <img src="images/data-fiscal.png" alt="Data Fiscal" height="90" width="63">
+                        <div class="text-center text-md-left ml-md-3">
+                            <p>© Copyright 1999/2021 - Soloduenos.com - Todos los derechos reservados.</p>
+                            <p>Términos y Condiciones de Publicación • Funcionamiento • Política de privacidad</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--================================= footer-->
+
+    <!--================================= Javascript -->
+
+    <!-- JS Global Compulsory (Do not remove)-->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/popper/popper.min.js"></script>
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+
+    <!-- Page JS Implementing Plugins (Remove the plugin script here if site does not use that feature)-->
+    <script src="js/jquery.appear.js"></script>
+    <script src="js/counter/jquery.countTo.js"></script>
+    <script src="js/owl-carousel/owl.carousel.min.js"></script>
+    <script src="js/select2/select2.full.js"></script>
+    <script src="js/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+    <!-- Template Scripts (Do not remove)-->
+    <script src="js/custom.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="HTML5 Template" />
+    <meta name="description" content="Real Villa - Real Estate HTML5 Template" />
+    <meta name="author" content="potenzaglobalsolutions.com" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Real Villa - Real Estate HTML5 Template</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/favicon.ico" />
+
+    <!-- Google Font -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed:300,500,600,700%7CRoboto:300,400,500,700">
+
+    <!-- CSS Global Compulsory (Do not remove)-->
+    <link rel="stylesheet" href="css/font-awesome/all.min.css" />
+    <link rel="stylesheet" href="css/flaticon/flaticon.css" />
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css" />
+
+    <!-- Page CSS Implementing Plugins (Remove the plugin CSS here if site does not use that feature)-->
+    <link rel="stylesheet" href="css/owl-carousel/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/magnific-popup/magnific-popup.css" />
+    <link rel="stylesheet" href="css/select2/select2.css" />
+
+    <!-- Template Style -->
+    <link rel="stylesheet" href="css/style.css" />
+
+</head>
+
+<body>
+
+    <!--================================= header -->
+    <header class="header">
+        <div class="topbar">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="d-block d-md-flex align-items-center text-center">
+                            <div class="mr-auto d-inline-block">
+                                <a href="tel:5238-9999"><i class="fa fa-phone mr-2 fa fa-flip-horizontal"></i>5238-9999</a>
+                            </div>
+                            <div class="social d-inline-block">
+                                <ul class="list-unstyled">
+                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-pinterest"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                </ul>
+                            </div>
+                            <div class="login d-inline-block mt-2 m-md-0">
+                                <a data-toggle="modal" data-target="#loginModal" href="#">Escritorio del dueño<i class="fa fa-user pl-2"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar navbar-light bg-white navbar-static-top navbar-expand-lg header-sticky">
+            <div class="container-fluid">
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target=".navbar-collapse">☰</button>
+                <a class="navbar-brand" href="sd--home.html">
+                    <img src="images/logo.png" alt="logo">
+                </a>
+                <div class="navbar-collapse collapse justify-content-center">
+                    <ul class="nav navbar-nav">
+
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Emprendimientos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Video 360º</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Funcionamiento</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Servicios <i class="fas fa-chevron-down fa-xs"></i></a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li class="active"><a class="dropdown-item" href="#">Servicio 1</a></li>
+                                <li><a class="dropdown-item" href="#">Servicio 2</a></li>
+                                <li><a class="dropdown-item" href="#">Servicio 3</a></li>
+                                <li><a class="dropdown-item" href="#">Servicio 4</a></li>
+                                <li><a class="dropdown-item" href="#">Servicio 5</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Blog</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="add-listing d-none d-sm-block">
+                    <a class="btn btn-primary btn-md" href="sd--submit-property.html"><i class="fa fa-plus-circle"></i> Publicar</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--================================= header -->
+
+    <!--================================= Modal login -->
+    <div class="modal login fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header border-0">
+                    <h5 class="modal-title" id="loginModalLabel">Log in & Register</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <ul class="nav nav-tabs nav-tabs-02 justify-content-center" id="myTab" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active" id="login-tab" data-toggle="tab" href="#login" role="tab" aria-controls="login" aria-selected="false">Log in</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="register-tab" data-toggle="tab" href="#register" role="tab" aria-controls="register" aria-selected="true">Register</a>
+                        </li>
+                    </ul>
+                    <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane fade show active" id="login" role="tabpanel" aria-labelledby="login-tab">
+                            <form class="form-row mt-4 align-items-center">
+                                <div class="form-group col-sm-12">
+                                    <input type="text" class="form-control" placeholder="Username">
+                                </div>
+                                <div class="form-group col-sm-12">
+                                    <input type="Password" class="form-control" placeholder="Password">
+                                </div>
+                                <div class="col-sm-6">
+                                    <button type="submit" class="btn btn-primary btn-block">Sign up</button>
+                                </div>
+                                <div class="col-sm-6">
+                                    <ul class="list-unstyled d-flex mb-1 mt-sm-0 mt-3">
+                                        <li class="mr-1"><a href="#"><b>Already Registered User? Click here to login</b></a></li>
+                                    </ul>
+                                </div>
+                            </form>
+                            <div class="login-social-media border pl-4 pr-4 pb-4 pt-0 rounded">
+                                <div class="mb-4 d-block text-center"><b class="bg-white pl-2 pr-2 mt-3 d-block">Login or Sign in with</b></div>
+                                <form class="row">
+                                    <div class="col-sm-6">
+                                        <a class="btn facebook-bg social-bg-hover d-block mb-3" href="#"><span><i class="fab fa-facebook-f"></i>Login with Facebook</span></a>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <a class="btn twitter-bg social-bg-hover d-block mb-3" href="#"><span><i class="fab fa-twitter"></i>Login with Twitter</span></a>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <a class="btn google-bg social-bg-hover d-block mb-3 mb-sm-0" href="#"><span><i class="fab fa-google"></i>Login with Google</span></a>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <a class="btn linkedin-bg social-bg-hover d-block" href="#"><span><i class="fab fa-linkedin-in"></i>Login with Linkedin</span></a>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="register" role="tabpanel" aria-labelledby="register-tab">
+                            <form class="form-row mt-4 mb-5 align-items-center">
+                                <div class="form-group col-sm-12">
+                                    <input type="text" class="form-control" placeholder="Username">
+                                </div>
+                                <div class="form-group col-sm-12">
+                                    <input type="email" class="form-control" placeholder="Email Address">
+                                </div>
+                                <div class="form-group col-sm-12">
+                                    <input type="Password" class="form-control" placeholder="Password">
+                                </div>
+                                <div class="form-group col-sm-12">
+                                    <input type="Password" class="form-control" placeholder="Confirm Password">
+                                </div>
+                                <div class="col-sm-6">
+                                    <button type="submit" class="btn btn-primary btn-block">Sign up</button>
+                                </div>
+                                <div class="col-sm-6">
+                                    <ul class="list-unstyled d-flex mb-1 mt-sm-0 mt-3">
+                                        <li class="mr-1"><a href="#"><b>Already Registered User? Click here to login</b></a></li>
+                                    </ul>
+                                </div>
+                            </form>
+                            <div class="login-social-media border pl-4 pr-4 pb-4 pt-0 rounded">
+                                <div class="mb-4 d-block text-center"><b class="bg-white pl-2 pr-2 mt-3 d-block">Login or Sign in with</b></div>
+                                <form class="row">
+                                    <div class="col-sm-6">
+                                        <a class="btn facebook-bg social-bg-hover d-block mb-3" href="#"><span><i class="fab fa-facebook-f"></i>Login with Facebook</span></a>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <a class="btn twitter-bg social-bg-hover d-block mb-3" href="#"><span><i class="fab fa-twitter"></i>Login with Twitter</span></a>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <a class="btn google-bg social-bg-hover d-block mb-3 mb-sm-0" href="#"><span><i class="fab fa-google"></i>Login with Google</span></a>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <a class="btn linkedin-bg social-bg-hover d-block" href="#"><span><i class="fab fa-linkedin-in"></i>Login with Linkedin</span></a>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--================================= Modal login -->
+
+    <!--================================= breadcrumb -->
+    <div class="bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <ol class="breadcrumb mb-0">
+                        <li class="breadcrumb-item"><a href="sd--home.html"> <i class="fas fa-home"></i> </a></li>
+                        <li class="breadcrumb-item active"> <i class="fas fa-chevron-right"></i> <span> Publicar </span></li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--================================= breadcrumb -->
+
+    <!--================================= Submit Property -->
+    <section class="space-ptb">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-title d-flex align-items-center">
+                        <h2>Publicar su aviso</h2>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <ul class="nav nav-tabs nav-tabs-03 nav-fill" id="myTab" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link active" id="tab-01-tab" data-toggle="tab" href="#tab-01" role="tab" aria-controls="tab-01" aria-selected="true">
+                                        <span>01</span>
+                                        Datos del Cliente
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="tab-02-tab" data-toggle="tab" href="#tab-02" role="tab" aria-controls="tab-02" aria-selected="false">
+                                        <span>02</span>
+                                        Datos del Inmueble
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="tab-03-tab" data-toggle="tab" href="#tab-03" role="tab" aria-controls="tab-03" aria-selected="false">
+                                        <span>03</span>
+                                        Datos de Contacto
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="tab-04-tab" data-toggle="tab" href="#tab-04" role="tab" aria-controls="tab-04" aria-selected="false">
+                                        <span>04</span>
+                                        Formas de pago
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="tab-05-tab" data-toggle="tab" href="#tab-05" role="tab" aria-controls="tab-05" aria-selected="false">
+                                        <span>05</span>
+                                        Confirmación
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="tab-content mt-4" id="myTabContent">
+                                <div class="tab-pane fade show active" id="tab-01" role="tabpanel" aria-labelledby="tab-01-tab">
+                                    <form>
+                                        <div class="form-row">
+                                            <div class="form-group col-md-6">
+                                                <label>Nombre </label>
+                                                <input type="text" class="form-control" placeholder="">
+                                            </div>
+                                            <div class="form-group col-md-6 select-border">
+                                                <label>Apellido</label>
+                                                <input type="text" class="form-control" placeholder="">
+                                            </div>
+                                            <div class="form-group col-md-6 select-border">
+                                                <label>Tipo de Documento</label>
+                                                <select class="form-control basic-select">
+                                                    <option value="value 01" selected="selected">DNI</option>
+                                                    <option value="value 02">PASAPORTE</option>
+                                                </select>
+                                            </div>
+                                            <div class="form-group col-md-6 select-border">
+                                                <label>Número de Documento</label>
+                                                <input type="number" class="form-control" placeholder="">
+                                            </div>
+                                            <div class="form-group col-md-6 select-border">
+                                                <label>Dirección</label>
+                                                <input type="text" class="form-control" placeholder="">
+                                            </div>
+                                            <div class="form-group col-md-6 select-border">
+                                                <label>Localidad / Barrio</label>
+                                                <input type="text" class="form-control" placeholder="">
+                                            </div>
+                                            <div class="form-group col-md-6 select-border">
+                                                <label>País</label>
+                                                <input type="text" class="form-control" placeholder="">
+                                            </div>
+                                            <div class="form-group col-md-6 select-border">
+                                                <label>Provincia / Estado</label>
+                                                <input type="text" class="form-control" placeholder="">
+                                            </div>
+                                            <div class="form-group col-md-6 select-border">
+                                                <label>Código Postal</label>
+                                                <input type="text" class="form-control" placeholder="">
+                                            </div>
+                                            <div class="form-group col-md-6 select-border">
+                                                <label>Teléfono</label>
+                                                <input type="tel" class="form-control" placeholder="">
+                                            </div>
+                                            <div class="form-group col-md-6 select-border">
+                                                <label>E-mail</label>
+                                                <input type="email" class="form-control" placeholder="">
+                                            </div>
+                                            <div class="form-group col-md-6 select-border">
+                                                <label>Confirme su e-mail</label>
+                                                <input type="email" class="form-control" placeholder="">
+                                            </div>
+                                            <div class="form-group col-md-6 select-border">
+                                                <label>Genere su clave de acceso</label>
+                                                <input type="password" class="form-control" placeholder="">
+                                            </div>
+                                            <div class="form-group col-md-6 select-border">
+                                                <label>Confirme su clave de acceso</label>
+                                                <input type="password" class="form-control" placeholder="">
+                                            </div>
+                                            <div class="form-group col-md-6 select-border">
+                                                <label>Zona del Inmueble a publicar</label>
+                                                <input type="text" class="form-control" placeholder="">
+                                            </div>
+                                            <div class="form-group col-md-6 select-border">
+                                                <label>Tipo de Inmueble a publicar</label>
+                                                <input type="text" class="form-control" placeholder="">
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="tab-pane fade" id="tab-02" role="tabpanel" aria-labelledby="tab-02-tab">
+                                    <form>
+                                        <div class="form-row">
+                                            <div class="form-group col-md-6">
+                                                <label>Nombre </label>
+                                                <input type="text" class="form-control" placeholder="">
+                                            </div>
+                                            <div class="form-group col-md-6 select-border">
+                                                <label>Apellido</label>
+                                                <input type="text" class="form-control" placeholder="">
+                                            </div>
+                                            <div class="form-group col-md-6 select-border">
+                                                <label>Tipo de Documento</label>
+                                                <select class="form-control basic-select">
+                                                    <option value="value 01" selected="selected">DNI</option>
+                                                    <option value="value 02">PASAPORTE</option>
+                                                </select>
+                                            </div>
+                                            <div class="form-group col-md-6 select-border">
+                                                <label>Número de Documento</label>
+                                                <input type="number" class="form-control" placeholder="">
+                                            </div>
+                                            <div class="form-group col-md-6 select-border">
+                                                <label>Dirección</label>
+                                                <input type="text" class="form-control" placeholder="">
+                                            </div>
+                                            <div class="form-group col-md-6 select-border">
+                                                <label>Localidad / Barrio</label>
+                                                <input type="text" class="form-control" placeholder="">
+                                            </div>
+                                            <div class="form-group col-md-6 select-border">
+                                                <label>País</label>
+                                                <input type="text" class="form-control" placeholder="">
+                                            </div>
+                                            <div class="form-group col-md-6 select-border">
+                                                <label>Provincia / Estado</label>
+                                                <input type="text" class="form-control" placeholder="">
+                                            </div>
+                                            <div class="form-group col-md-6 select-border">
+                                                <label>Código Postal</label>
+                                                <input type="text" class="form-control" placeholder="">
+                                            </div>
+                                            <div class="form-group col-md-6 select-border">
+                                                <label>Teléfono</label>
+                                                <input type="tel" class="form-control" placeholder="">
+                                            </div>
+                                            <div class="form-group col-md-6 select-border">
+                                                <label>E-mail</label>
+                                                <input type="email" class="form-control" placeholder="">
+                                            </div>
+                                            <div class="form-group col-md-6 select-border">
+                                                <label>Confirme su e-mail</label>
+                                                <input type="email" class="form-control" placeholder="">
+                                            </div>
+                                            <div class="form-group col-md-6 select-border">
+                                                <label>Genere su clave de acceso</label>
+                                                <input type="password" class="form-control" placeholder="">
+                                            </div>
+                                            <div class="form-group col-md-6 select-border">
+                                                <label>Confirme su clave de acceso</label>
+                                                <input type="password" class="form-control" placeholder="">
+                                            </div>
+                                            <div class="form-group col-md-6 select-border">
+                                                <label>Zona del Inmueble a publicar</label>
+                                                <input type="text" class="form-control" placeholder="">
+                                            </div>
+                                            <div class="form-group col-md-6 select-border">
+                                                <label>Tipo de Inmueble a publicar</label>
+                                                <input type="text" class="form-control" placeholder="">
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="tab-pane fade" id="tab-03" role="tabpanel" aria-labelledby="tab-03-tab">
+                                    <form>
+                                        <div class="form-row mt-4">
+                                            <div class="form-group col-md-6">
+                                                <label>Nombre</label>
+                                                <input type="text" class="form-control" placeholder="">
+                                            </div>
+                                            <div class="form-group col-md-6"></div>
+                                            <div class="form-group col-md-6">
+                                                <label>Teléfono Particular</label>
+                                                <input type="text" class="form-control" placeholder="">
+                                            </div>
+                                            <div class="form-group col-md-6">
+                                                <label>Horario</label>
+                                                <input type="text" class="form-control" placeholder="">
+                                            </div>
+                                            <div class="form-group col-md-6">
+                                                <label>Teléfono Alternativo</label>
+                                                <input type="text" class="form-control" placeholder="">
+                                            </div>
+                                            <div class="form-group col-md-6">
+                                                <label>Horario</label>
+                                                <input type="text" class="form-control" placeholder="">
+                                            </div>
+                                            <div class="form-group col-md-6">
+                                                <label>Domicilio</label>
+                                                <input type="text" class="form-control" placeholder="">
+                                            </div>
+                                            <div class="form-group col-md-6">
+                                                <label>Fax</label>
+                                                <input type="text" class="form-control" placeholder="">
+                                            </div>
+                                            <div class="form-group col-md-6">
+                                                <label>E-mail</label>
+                                                <input type="email" class="form-control" placeholder="">
+                                            </div>
+                                            <div class="form-group col-md-6">
+                                                <label>Confirme su e-mail</label>
+                                                <input type="email" class="form-control" placeholder="">
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="tab-pane fade" id="tab-04" role="tabpanel" aria-labelledby="tab-04-tab">
+                                    <div class="row mb-3">
+                                        <div class="col-12">
+                                            <div class="section-title text-left">
+                                                <h2>Accordion Style 1</h2>
+                                            </div>
+                                            <div class="accordion" id="accordion">
+                                                <div class="accordion-item">
+                                                    <div class="accordion-title" id="accordion-title-one">
+                                                        <a href="#" data-toggle="collapse" data-target="#accordion-one" aria-expanded="true" aria-controls="accordion-one">Medio de pago 1</a>
+                                                    </div>
+                                                    <div id="accordion-one" class="collapse show" aria-labelledby="accordion-title-one" data-parent="#accordion">
+                                                        <div class="accordion-content">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad natus earum, voluptas debitis sapiente, ipsa libero officiis nostrum totam iste tempora perspiciatis consequuntur, quo quos quia accusantium facilis laudantium voluptatem.</div>
+                                                    </div>
+                                                </div>
+                                                <div class="accordion-item">
+                                                    <div class="accordion-title" id="accordion-title-tow">
+                                                        <a href="#" class="collapsed" data-toggle="collapse" data-target="#accordion-two" aria-expanded="false" aria-controls="accordion-two">Medio de pago 2</a>
+                                                    </div>
+                                                    <div id="accordion-two" class="collapse" aria-labelledby="accordion-title-tow" data-parent="#accordion">
+                                                        <div class="accordion-content">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad natus earum, voluptas debitis sapiente, ipsa libero officiis nostrum totam iste tempora perspiciatis consequuntur, quo quos quia accusantium facilis laudantium voluptatem.</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <hr>
+                                    <div class="row mb-3">
+                                        <div class="col-12">
+                                            <div class="section-title text-left">
+                                                <h2>Accordion Style 2</h2>
+                                            </div>
+                                            <div class="accordion-style-2" id="accordion-02">
+                                                <div class="card">
+                                                    <div class="card-header" id="headingfour">
+                                                        <h5 class="accordion-title mb-0">
+                                                            <button class="btn btn-link d-flex ml-auto align-items-center" data-toggle="collapse" data-target="#collapsefour" aria-expanded="true" aria-controls="collapsefour">Medio de pago 1 <i class="fas fa-chevron-down fa-xs"></i></button>
+                                                        </h5>
+                                                    </div>
+                                                    <div id="collapsefour" class="collapse show accordion-content" aria-labelledby="headingfour" data-parent="#accordion-02">
+                                                        <div class="card-body">
+                                                            <p class="mb-0">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad natus earum, voluptas debitis sapiente, ipsa libero officiis nostrum totam iste tempora perspiciatis consequuntur, quo quos quia accusantium facilis laudantium voluptatem.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="card">
+                                                    <div class="card-header" id="headingfive">
+                                                        <h5 class="accordion-title mb-0">
+                                                            <button class="btn btn-link d-flex ml-auto align-items-center collapsed" data-toggle="collapse" data-target="#collapsefive" aria-expanded="false" aria-controls="collapsefive">Medio de pago 2 <i class="fas fa-chevron-down fa-xs"></i> </button>
+                                                        </h5>
+                                                    </div>
+                                                    <div id="collapsefive" class="collapse accordion-content" aria-labelledby="headingfive" data-parent="#accordion-02">
+                                                        <div class="card-body">
+                                                            <p class="mb-0">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad natus earum, voluptas debitis sapiente, ipsa libero officiis nostrum totam iste tempora perspiciatis consequuntur, quo quos quia accusantium facilis laudantium voluptatem.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <hr>
+                                    <div class="row mb-3">
+                                        <div class="col-12">
+                                            <div class="section-title text-left">
+                                                <h2>Tabs style 02</h2>
+                                            </div>
+                                            <ul class="nav nav-tabs mb-4" id="pills-tab" role="tablist">
+                                                <li class="nav-item">
+                                                    <a class="nav-link active" id="forma-pago-01-tab" data-toggle="pill" href="#forma-pago-01" role="tab" aria-controls="forma-pago-01" aria-selected="true">Medio de pago 1</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" id="forma-pago-02-tab" data-toggle="pill" href="#forma-pago-02" role="tab" aria-controls="forma-pago-02" aria-selected="false">Medio de pago 2</a>
+                                                </li>
+                                            </ul>
+                                            <div class="tab-content" id="pills-tabContent">
+                                                <div class="tab-pane fade show active" id="forma-pago-01" role="tabpanel" aria-labelledby="forma-pago-01-tab">
+                                                    <p class="mt-4">The first thing to remember about success is that it is a process – nothing more, nothing less. There is really no magic to it and it’s not reserved only for a select few people. As such, success really has nothing to do with luck, coincidence or fate. It really comes down to understanding the steps in the process of such supremely successful.</p>
+                                                    <p class="mt-4">We also know those epic stories, those modern-day legends surrounding the early failures of such supremely successful folks as Michael Jordan and Bill Gates We can look a bit further.</p>
+                                                </div>
+                                                <div class="tab-pane fade" id="forma-pago-02" role="tabpanel" aria-labelledby="forma-pago-02-tab">
+                                                    <p class="mt-4">Focus is having the unwavering attention to complete what you set out to do. There are a million distractions in every facet of our lives. Telephones and e-mail, clients and managers, spouses and kids, TV, newspapers and radio – the distractions are everywhere and endless. Everyone wants a piece of us and the result can be.</p>
+                                                    <p class="mt-4">We also know those epic stories, those modern-day legends surrounding the early failures of such supremely successful folks as Michael Jordan and Bill Gates We can look a bit further.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="tab-05" role="tabpanel" aria-labelledby="tab-05-tab">
+                                    <div class="text-center">
+                                        <p>
+                                            Ud. ha terminado de cargar su aviso.<br>
+                                            Nos comunicaremos con usted por teléfono o por email, dentro de las próximas 24 horas hábiles, para verificar la información ingresada y dar de alta su aviso.<br>
+                                            Si su publicación se encuentra abonada, el aviso se activará a la brevedad y usted podrá ingresar a nuestra página para modificarla e incorporarle fotos.<br>
+                                            Tenga presente que el Servicio fotográfico es optativo y se brinda en Capital Federal y GBA. Si está de acuerdo en tomar el servicio nos contactaremos con usted para coordinar cita con nuestro fotógrafo.
+                                        </p>
+                                        <p>Muchas gracias por publicar con nosotros</p>
+                                        <p>Regresar a <a href="sd--home.html">www.soloduenos.com</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--================================= Submit Property -->
+
+    <!--================================= footer-->
+    <footer class="footer bg-primary space-pt">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-contact-info">
+                        <h5 class="mb-4">Contacto</h5>
+                        <div class="footer-link">
+                            <ul class="list-unstyled mb-0 text-white">
+                                <li>Comuníquese con nosotros de lunes a viernes de 09 a 20 hs</li>
+                                <li>Tel. <a href="tel:01152389999" target="_blank">(011) 5238-9999</a></li>
+                                <li>WhatsApp: <a href="https://wa.me/5491125099000" target="_blank">(011) 2509-9000</a></li>
+                                <li><a href="mailto:info@soloduenos.com">info@soloduenos.com</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mt-4 mt-md-0">
+                    <div class="footer-link">
+                        <h5 class="mb-4">Búsquedas Frecuentes</h5>
+                        <ul class="list-unstyled mb-0">
+                            <li> <a href="#">Alquiler en CABA</a> </li>
+                            <li> <a href="#">Inmuebles Comerciales </a> </li>
+                            <li> <a href="#">Countries & Barrios Cerrados </a> </li>
+                            <li> <a href="#">Avisos con Fotos 360º </a> </li>
+                            <li> <a href="#">Últimas propiedades ingresadas </a> </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mt-4 mt-lg-0">
+                    <div class="footer-recent-List">
+                        <h5 class="mb-4">Servicios Útiles</h5>
+                        <ul class="list-unstyled mb-0">
+                            <li>
+                                <div class="footer-recent-list-item">
+                                    <img class="img-fluid" src="images/property/list/01.jpg" alt="">
+                                    <div class="footer-recent-list-item-info">
+                                        <h6><a class="category font-md mb-2" href="property-detail-style-01.html">Video 360º</a></h6>
+                                        <span class="text-white font-sm">Exclusivo de solodueños.com</span>
+                                        <a class="text-white mb-2" href="#">VER MÁS</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="footer-recent-list-item">
+                                    <img class="img-fluid" src="images/property/list/02.jpg" alt="">
+                                    <div class="footer-recent-list-item-info">
+                                        <h6 class="text-white"><a class="category font-md mb-2" href="property-detail-style-01.html">Servicio Fotográfico</a></h6>
+                                        <span class="text-white font-sm">Fotos profesionales</span>
+                                        <a class="text-white mb-2" href="#">VER MÁS</a>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mt-4 mt-lg-0">
+                    <h5 class="mb-4">Blog</h5>
+                    <div class="footer-subscribe">
+                        <p class="text-white">¿Desea recibir nuestras novedades?</p>
+                        <form>
+                            <div class="form-group">
+                                <input type="email" class="form-control" aria-label="email">
+                            </div>
+                            <button type="submit" class="btn btn-secondary btn-sm">Suscribirme</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-md-5 text-center text-md-left">
+                        <a href="#"><img src="images/logo-light.png" alt="Solodueños.com logo white" class="img-fluid"> </a>
+                    </div>
+                    <div class="col-md-2 text-center my-3 mt-md-0 mb-md-0">
+                        <a id="back-to-top" class="back-to-top" href="#"><i class="fas fa-angle-double-up"></i> </a>
+                    </div>
+                    <div class="col-md-5 text-center text-white d-flex flex-column-reverse align-items-center flex-md-row align-items-md-start justify-content-md-end">
+                        <img src="images/data-fiscal.png" alt="Data Fiscal" height="90" width="63">
+                        <div class="text-center text-md-left ml-md-3">
+                            <p>© Copyright 1999/2021 - Soloduenos.com - Todos los derechos reservados.</p>
+                            <p>Términos y Condiciones de Publicación • Funcionamiento • Política de privacidad</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--================================= footer-->
+
+    <!--================================= Javascript -->
+
+    <!-- JS Global Compulsory (Do not remove)-->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/popper/popper.min.js"></script>
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+
+    <!-- Page JS Implementing Plugins (Remove the plugin script here if site does not use that feature)-->
+    <script src="js/jquery.appear.js"></script>
+    <script src="js/counter/jquery.countTo.js"></script>
+    <script src="js/owl-carousel/owl.carousel.min.js"></script>
+    <script src="js/select2/select2.full.js"></script>
+    <script src="js/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+    <!-- Template Scripts (Do not remove)-->
+    <script src="js/custom.js"></script>
+
+</body>
+
+</html>
