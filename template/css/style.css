@@ -2670,9 +2670,17 @@ button {
   position: relative; }
   .property-image img {
     width: 100% !important;
-    height: 100% !important;
-    -o-object-fit: cover !important;
-       object-fit: cover !important; }
+    height: 100% !important; }
+    .property-image img.square_image {
+      aspect-ratio: 1/1; }
+    .property-image img.rectangle_image {
+      aspect-ratio: 3/4; }
+    .property-image img.image__contain {
+      -o-object-fit: contain;
+         object-fit: contain; }
+    .property-image img.image__cover {
+      -o-object-fit: cover;
+         object-fit: cover; }
   .property-image .property-agent {
     display: -webkit-box;
     display: -ms-flexbox;

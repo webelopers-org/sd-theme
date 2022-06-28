@@ -9,7 +9,19 @@
     img {
         width: 100% !important;
         height: 100% !important;
-        object-fit: cover !important;
+
+        &.square_image {
+            aspect-ratio: 1/1;
+        }
+        &.rectangle_image {
+            aspect-ratio: 3/4;
+        }
+        &.image__contain {
+            object-fit: contain;
+        }
+        &.image__cover {
+            object-fit: cover;
+        }
     }
 
     .property-agent {
